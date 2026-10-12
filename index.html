@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Teste</title>
+</head>
+<body>
+<script type="text/javascript">
+  (function(w, d, x, id){
+    s=d.createElement('script');
+    s.src='https://thiagocontact.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
+    s.async=1;
+    s.id=id;
+    d.getElementsByTagName('head')[0].appendChild(s);
+    w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+  })(window, document, 'amazon_connect', '848f09c2-e726-4a39-99ae-6a982ca85b9c');
+  amazon_connect('styles', { iconType: 'CHAT_VOICE', openChat: { color: '#ffffff', backgroundColor: '#23d792' }, closeChat: { color: '#ffffff', backgroundColor: '#23d792'} });
+  amazon_connect('snippetId', 'QVFJREFIZ1NqZWV5MTExbXUwZXRHZUlvQ2NPT3RQZ1k4bTl0VDhTaTZYcy9YcFVCVHdHRUVTNmt3ZEN3OXJyRlVxR3NKaU9mQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNbXpqOUlIMUx1elo2N2owWUFnRVFnQ3NWcHF3MThRM21JZVo0T0tlN0lQYWpMZDJ4SU05ejgyMkVTdjFUNG44dDNmWERkSnJSMk9WamFuNUc6OnlBSHNuT0hMcStuOGtVd0xlN2dtNjRreVliSTBmWUFWbTR4dzkzaXhJcjI2aVBwRkdHbW9FLzNJRXp4ZjNnby95enJMNUdyNE5UMXdWQ3BONjIrUHJhc01EU2ZOZUp3eDBaV213Q09nTHc5Qk5YQ2NVd2RHSDU0TmRWY0R5c0UvSGpyMkpWejU3YkFvMzF1U1FUTjBJejdWTGVHZVR1VT0=');
+  amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+</script>
+</body></html>
